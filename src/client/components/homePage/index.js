@@ -4,6 +4,7 @@ import Header from '../header';
 import LatestProducts from '../latestProducts';
 import Designers from '../designers';
 import Footer from '../footer';
+import ContactUs from '../contactUs';
 
 import './index.css';
 
@@ -14,6 +15,7 @@ class HomePage extends Component {
         <Header />
         <LatestProducts />
         <Designers />
+        <ContactUs />
         <Footer />
       </div>
     );

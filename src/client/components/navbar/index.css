@@ -1,8 +1,11 @@
 .navbar__container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   background-color: transparent;
+  z-index: 10;
+  position: absolute;
+  width: 100%;
 }
 
 .navbar__logo {
@@ -10,8 +13,8 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  height: 50px;
-  width: 100px;
+  height: 90px;
+  width: 140px;
 }
 
 .navbar__nav-btns {

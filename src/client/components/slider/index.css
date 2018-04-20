@@ -14,11 +14,11 @@
   position: absolute;
   top: 58%;
   left: 78vh;
-  border: 1px solid #322e30;
+  border: 1px solid rgb(50, 46, 48);
 }
 
 .button:hover{
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgb(50, 46, 48, 0.3);
 }
 
 .button > a {
