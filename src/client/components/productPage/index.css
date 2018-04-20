@@ -1,0 +1,120 @@
+.productPage__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.productPage__container {
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.productPage__info {
+  width: 100%;
+  display: flex;
+}
+
+.productPage__display {
+  display: flex;
+  margin-right: 5vw;
+}
+
+.productPage__product-colors {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.productPage__product-color:nth-child(1) {
+  background-color: white;
+}
+
+.productPage__product-color:nth-child(2) {
+  background-color: gray;
+}
+
+.productPage__product-color:nth-child(3) {
+  background-color: black;
+}
+
+.productPage__product-color:nth-child(4) {
+  background-color: red;
+}
+
+.productPage__product-color:nth-child(5) {
+  background-color: blue;
+}
+
+.productPage__product-color:nth-child(6) {
+  background-color: green;
+}
+
+.productPage__product-color {
+  width: 20px;
+  height: 20px;
+  border: 3px solid lightgray;
+  padding: 2px;
+  border-radius: 20px;
+  margin-bottom: 2px;
+}
+
+.productPage__product-img {
+  width: 300px;
+  height: 400px;
+  background-image: url('/assets/imgs/product1.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2.5px solid #e4aca5;
+  margin-right: 3vw;
+}
+
+.productPage__product-options {
+
+}
+
+.productPage__options-sizes {
+  display: flex;
+  align-items: baseline;
+}
+
+.productPage__product-option {
+  margin: 0 3px 30px 0;
+  font-size: 18px;
+}
+
+.productPage__product-size {
+  height: 20px;
+  border: 1px solid lightgray;
+  padding: 2px;
+  border-radius: 2px;
+  margin: 2px;
+}
+
+.productPage__options-quantity {
+  display: flex;
+}
+
+.productPage__options-quantity-counter input, .productPage__options-quantity-counter button {
+  width: 35px;
+  height: 20px;
+  text-align: center;
+  border: none
+}
+
+.productPage__options-quantity-counter button {
+  width: auto
+}
+
+.productPage__options-quantity .productPage__product-option {
+  margin-right: 20px;
+}
+
+.productPage__options-btns button {
+  border: none;
+  height: 35px;
+  margin-right: 5px;
+}
