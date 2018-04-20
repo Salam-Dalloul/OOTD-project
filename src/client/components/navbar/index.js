@@ -6,7 +6,7 @@ class Navbar extends Component {
   render() {
     return (
       <div className='navbar__container'>
-        <div className='navbar__left'>
+        <div className='navbar__left navbar__logo'>
         </div>
         <div className='navbar__right'>
           <ul className='navbar__nav-btns'>
