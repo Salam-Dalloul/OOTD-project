@@ -1,1 +1,1 @@
-# OOTD-project
+# WIT-list
