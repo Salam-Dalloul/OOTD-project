@@ -1,0 +1,38 @@
+.navbar__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color: transparent;
+}
+
+.navbar__logo {
+  background-image: url(/assets/imgs/ootd.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 100px;
+}
+
+.navbar__nav-btns {
+  list-style: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.navbar__nav-btns li {
+  float: left;
+  padding: 0.5em 1em;
+  border: 2px solid #e4aca5;
+  text-transform: lowercase;
+  cursor: pointer;
+}
+
+.navbar__nav-btns li:first-child {
+    background: #e4aca5;
+}
+
+.navbar__nav-btns {
+  font-size: 14px;
+}
