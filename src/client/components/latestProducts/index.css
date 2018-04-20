@@ -1,0 +1,87 @@
+.latestProducts{
+  display: flex;
+  flex-direction: column;
+}
+
+.latestProducts__title h2{
+  font-family: Montserrat;
+}
+
+.latestProducts__container{
+  width: 80vw;
+  align-self: center;
+  flex-wrap: wrap;
+}
+
+.latestProducts__content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.latestProducts__imgs{
+  display: flex;
+  flex-direction: column;
+}
+
+.latestProducts__imgs__row{
+  display: flex;
+}
+
+
+
+.box1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 42vh;
+  background-color: #f9d0b9;
+  background-image: url(/assets/imgs/box1.png);
+  background-size: 25vw;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 42vh;
+  background-color: #fef8ab;
+  background-image: url(/assets/imgs/box2.png);
+  background-size: 25vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 42vh;
+  background-color: #a6faff;
+  background-image: url(/assets/imgs/box3.png);
+  background-size: 25vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.box4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 42vh;
+  background-color: #b8e5ff;
+  background-image: url(/assets/imgs/box4.png);
+  background-size: 25vw;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.box:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}

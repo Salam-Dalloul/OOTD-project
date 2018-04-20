@@ -1,0 +1,15 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  background: #222222;
+  width: 100%;
+  text-align: center;
+}
+
+.footer__ltd {
+  color: white;
+}
+
+.footer__title {
+  color: #656565;
+}
