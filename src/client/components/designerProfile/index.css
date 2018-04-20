@@ -9,7 +9,7 @@
   width: 85vw;
   min-height: fit-content;
   display: flex;
-  padding-top: 10vh;
+  padding-top: 25vh;
 }
 
 .designerProfile__picture{
@@ -47,7 +47,6 @@
   margin-top: 5vh;
   font-size: 20px;
   min-height: fit-content;
-  border-top: 3px solid #e4aca5;
   padding-top: 2vh;
 }
 

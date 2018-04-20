@@ -8,6 +8,7 @@ class Header extends Component {
     return (
       <div className='header'>
         <Slider />
+        <div className='header__shop-button'><a href='#doctors'> SHOP NOW </a></div>
       </div>
     );
   }
