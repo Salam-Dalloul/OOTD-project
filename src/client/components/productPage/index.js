@@ -7,9 +7,6 @@ class ProductPage extends Component {
     return (
       <div className='productPage__wrapper'>
         <div className='productPage__container'>
-          <div className='productPage__title'>
-            <h2>Product: Dressing</h2>
-          </div>
           <div className='productPage__info'>
             <div className='productPage__display'>
               <div className='productPage__product-colors'>
@@ -23,6 +20,9 @@ class ProductPage extends Component {
               <div className='productPage__product-img'></div>
             </div>
             <div className='productPage__product-options'>
+              <div className='productPage__title'>
+                <h2>Product: Dressing</h2>
+              </div>
               <div className='productPage__product-option'>Price: $300</div>
               <div className='productPage__options-sizes'>
                 <div className='productPage__product-option'>Sizes: </div>
