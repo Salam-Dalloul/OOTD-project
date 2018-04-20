@@ -1,3 +1,35 @@
 .header{
   height: 100vh;
 }
+
+
+.header__shop-button {
+  text-decoration: none;
+  width: 11em;
+  background: transparent;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 58%;
+  left: 78vh;
+  border: 1px solid rgb(50, 46, 48);
+  cursor: pointer;
+}
+
+.header__shop-button:hover{
+  background-color: rgb(50, 46, 48, 0.3);
+}
+
+.header__shop-button > a {
+  color: #322e30;
+  font-family: inherit;
+  text-decoration: none;
+}
+
+.header__shop-button:hover {
+  color: black;
+  background-color: #e4aca5
+}

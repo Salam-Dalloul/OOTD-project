@@ -10,13 +10,12 @@ const images = [
 class Slider extends Component {
   render() {
     return (
-      <div>
+      <div className='header__slider'>
         <Slide className='slider'
           images={images}
           duration='5000'
           transitionDuration='1000'
         />
-        <div className='button'><a href='#doctors'> SHOP NOW </a></div>
       </div>
     );
   }
