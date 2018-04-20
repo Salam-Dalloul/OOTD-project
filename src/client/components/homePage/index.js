@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 
 import Header from '../header';
+import LatestProducts from '../latestProducts';
+import Designers from '../designers';
+import Footer from '../footer';
 
 import './index.css';
 
@@ -9,6 +12,9 @@ class HomePage extends Component {
     return (
       <div>
         <Header />
+        <LatestProducts />
+        <Designers />
+        <Footer />
       </div>
     );
   }

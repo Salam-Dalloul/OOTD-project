@@ -1,0 +1,31 @@
+.images-wrap{
+  height: 100vh!important;
+}
+
+.button {
+  text-decoration: none;
+  width: 11em;
+  background: transparent;
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 58%;
+  left: 78vh;
+  border: 1px solid #322e30;
+}
+
+.button:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.button > a {
+  color: #322e30;
+  font-family: inherit;
+  text-decoration: none;
+}
+.button > a:hover {
+  color: black;
+}
