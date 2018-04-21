@@ -6,6 +6,7 @@ import Navbar from './navbar';
 import Footer from './footer';
 import DesignerProfile from './designerProfile';
 import ProductPage from './productPage';
+import ProductPage02 from './productPage02';
 
 import './app.css';
 
@@ -17,8 +18,9 @@ class App extends Component {
           <Navbar />
           <Switch>
             <Route exact path='/' component={HomePage} />
-            <Route exact path='/profile/matt-gregory' component={DesignerProfile} />
-            <Route exact path='/product/dress-product' component={ProductPage} />
+            <Route exact path='/profile/sandra-matheow' component={DesignerProfile} />
+            <Route exact path='/products/dress-product' component={ProductPage} />
+            <Route exact path='/products/dress-product02' component={ProductPage02} />
           </Switch>
           <Footer />
         </div>

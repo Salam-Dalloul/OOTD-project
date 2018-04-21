@@ -62,10 +62,10 @@
   margin-bottom: 2px;
 }
 
-.productPage__product-img {
+.productPage__product-img1 {
   width: 300px;
   height: 400px;
-  background-image: url('/assets/imgs/dress5.jpg');
+  background-image: url(/assets/imgs/box2.png);
   background-position: center;
   background-size: 85%;
   background-repeat: no-repeat;

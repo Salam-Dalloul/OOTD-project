@@ -13,26 +13,34 @@ class Designers extends Component {
             </div>
             <div className='designers__imgs'>
               <div className='designers__imgs__row'>
-                <div className='designers__box1 designers__box'>
-                  <div className='middle'>
-                    <div className='text'>Afnan Ali</div>
+                <a href='/profile/sandra-matheow'>
+                  <div className='designers__box1 designers__box'>
+                    <div className='middle'>
+                      <div className='text'>Sandra Matheow</div>
+                    </div>
                   </div>
-                </div>
-                <div className='designers__box2 designers__box'>
-                  <div className='middle'>
-                    <div className='text'>Shorouq Jabr</div>
+                </a>
+                <a href='/profile/matt-gregory'>
+                  <div className='designers__box2 designers__box'>
+                    <div className='middle'>
+                      <div className='text'>Shorouq Jabr</div>
+                    </div>
                   </div>
-                </div>
-                <div className='designers__box3 designers__box'>
-                  <div className='middle'>
-                    <div className='text'>Aziza Abu-Mosabeh</div>
+                </a>
+                <a href='/profile/matt-gregory'>
+                  <div className='designers__box3 designers__box'>
+                    <div className='middle'>
+                      <div className='text'>Aziza Abu-Mosabeh</div>
+                    </div>
                   </div>
-                </div>
-                <div className='designers__box4 designers__box'>
-                  <div className='middle'>
-                    <div className='text'>Walaa Horani</div>
+                </a>
+                <a href='/profile/matt-gregory'>
+                  <div className='designers__box4 designers__box'>
+                    <div className='middle'>
+                      <div className='text'>Walaa Horani</div>
+                    </div>
                   </div>
-                </div>
+                </a>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 .designerProfile__container{
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -13,7 +13,7 @@
 }
 
 .designerProfile__picture{
-  background-image: url('/assets/imgs/profile-picture.jpg');
+  background-image: url('/assets/imgs/des1.png');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,12 +32,18 @@
   justify-content: flex-start;
 }
 
-.designerProfile__rate{
-  background-image: url('/assets/imgs/profile-rate.png');
-  background-position: 50px;
+.designerProfile__rate-stars{
+  background-image: url(/assets/imgs/profile-rate.png);
   background-size: contain;
-  background-repeat: no-repeat;
-  width: 150px;
+  background-repeat: repeat-x;
+  background-position: 23px;
+  width: 112px;
+  height: 22px;
+}
+
+.designerProfile__rate{
+  display: flex;
+  line-height: 26px;
 }
 
 .designerProfile__samples {
@@ -60,14 +66,45 @@
 .designerProfile__sample {
   width: 250px;
   height: 300px;
-  background-image: url('/assets/imgs/product1.jpg');
   background-position: center;
-  background-size: cover;
+  background-size: 70%;
   background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
   cursor: pointer;
   transition: all 0.3s;
+}
+
+.dp_s1:nth-child(1) {
+  background-image: url('/assets/imgs/dress1.jpg');
+}
+
+.dp_s1:nth-child(2) {
+  background-image: url('/assets/imgs/dress2.jpg');
+}
+
+.dp_s1:nth-child(3) {
+  background-image: url('/assets/imgs/dress3.jpg');
+}
+
+.dp_s1:nth-child(4) {
+  background-image: url('/assets/imgs/dress4.jpg');
+}
+
+.dp_s2:nth-child(1) {
+  background-image: url('/assets/imgs/dress5.jpg');
+}
+
+.dp_s2:nth-child(2) {
+  background-image: url('/assets/imgs/dress6.jpg');
+}
+
+.dp_s2:nth-child(3) {
+  background-image: url('/assets/imgs/dress7.png');
+}
+
+.dp_s2:nth-child(4) {
+  background-image: url('/assets/imgs/dress8.png');
 }
 
 .designerProfile__sample:hover {

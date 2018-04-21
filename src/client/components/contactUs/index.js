@@ -5,7 +5,7 @@ import './index.css';
 class ContactUs extends Component {
   render() {
     return (
-      <div className='ContactUs'>
+      <div className='ContactUs' id='contact-us'>
         <div className='cont'>
           <div className='container' id='container'>
             <h2 className='h2'>Contact Us</h2>

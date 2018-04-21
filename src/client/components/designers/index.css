@@ -39,10 +39,7 @@
   justify-content: center;
   width: 20vw;
   height: 42vh;
-  background-image: url(/assets/imgs/d1.png);
-  background-size: 15vw;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(/assets/imgs/des1.png);
 
 }
 .designers__box2 {
@@ -51,10 +48,7 @@
   justify-content: center;
   width: 20vw;
   height: 42vh;
-  background-image: url(/assets/imgs/d2.png);
-  background-size: 15vw;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(/assets/imgs/des3.png);
 }
 .designers__box3 {
   display: flex;
@@ -62,10 +56,7 @@
   justify-content: center;
   width: 20vw;
   height: 42vh;
-  background-image: url(/assets/imgs/d3.png);
-  background-size: 15vw;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(/assets/imgs/des2.png);
 }
 .designers__box4 {
   display: flex;
@@ -73,14 +64,14 @@
   justify-content: center;
   width: 20vw;
   height: 42vh;
-  background-image: url(/assets/imgs/d4.png);
-  background-size: 15vw;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url(/assets/imgs/des4.png);
 }
 
 .designers__box{
   position: relative;
+  background-size: 15vw;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
 }
 
 .designers__box:hover{
