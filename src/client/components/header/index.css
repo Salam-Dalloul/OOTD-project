@@ -1,22 +1,22 @@
-.header{
+.header__container{
   height: 100vh;
 }
 
 
 .header__shop-button {
   text-decoration: none;
-  width: 11em;
+  width: 15vw;
   background: transparent;
   font-size: 24px;
   text-align: center;
   padding: 10px;
   display: flex;
   justify-content: center;
-  position: absolute;
-  top: 58%;
-  left: 78vh;
   border: 1px solid rgb(50, 46, 48);
   cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 41vw;
 }
 
 .header__shop-button:hover{

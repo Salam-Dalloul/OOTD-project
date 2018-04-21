@@ -4,7 +4,7 @@ import { Button, Header, Icon, Modal, Form } from 'semantic-ui-react';
 
 import './index.css';
 
-class ProductPage extends Component {
+class ProductPage02 extends Component {
   render() {
     return (
       <div className='productPage__wrapper'>
@@ -19,13 +19,13 @@ class ProductPage extends Component {
                 <div className='productPage__product-color'></div>
                 <div className='productPage__product-color'></div>
               </div>
-              <div className='productPage__product-img'></div>
+              <div className='productPage__product-img1'></div>
             </div>
             <div className='productPage__product-options'>
               <div className='productPage__title'>
                 <h2>Product: Dressing</h2>
               </div>
-              <div className='productPage__product-option'>Price: $300.00</div>
+              <div className='productPage__product-option'>Price: $24.00</div>
               <div className='productPage__options-sizes'>
                 <div className='productPage__product-option'>Sizes: </div>
                 <div className='productPage__product-size'>XS</div>
@@ -35,7 +35,7 @@ class ProductPage extends Component {
                 <div className='productPage__product-size'>XL</div>
                 <div className='productPage__product-size'>XXL</div>
               </div>
-              <div className='productPage__product-option'>Shipping Cost: $1.75</div>
+              <div className='productPage__product-option'>Shipping Cost: $3.50</div>
               <div className='productPage__options-quantity'>
                 <div className='productPage__product-option'>Quantity:</div>
                 <div className='productPage__options-quantity-counter'>
@@ -44,7 +44,7 @@ class ProductPage extends Component {
                   <button type='button'>+</button>
                 </div>
               </div>
-              <div className='productPage__product-option'>Total Price: $301.75</div>
+              <div className='productPage__product-option'>Total Price: $27.50</div>
               <div className='productPage__options-btns'>
                 <Modal
                   className='modal__content'
@@ -85,4 +85,4 @@ class ProductPage extends Component {
   }
 }
 
-export default ProductPage;
+export default ProductPage02;

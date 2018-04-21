@@ -6,9 +6,9 @@ import Slider from '../slider';
 class Header extends Component {
   render() {
     return (
-      <div className='header'>
+      <div className='header__container'>
         <Slider />
-        <div className='header__shop-button'><a href='#doctors'> SHOP NOW </a></div>
+        <div className='header__shop-button'><a href='#latest-products'> SHOP NOW </a></div>
       </div>
     );
   }
